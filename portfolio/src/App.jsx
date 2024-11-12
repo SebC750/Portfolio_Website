@@ -2,6 +2,7 @@ import './App.css'
 import Navbar from "./components/Navbar"
 import IntroSection from './components/IntroSection'
 import AboutSection from './components/AboutSection'
+import TechStackSection from './components/TechStackSection'
 import ProjectsSection from './components/ProjectsSection'
 import Footer from "./components/Footer"
 function App() {
@@ -16,6 +17,9 @@ function App() {
       </section>
       <section>
         <AboutSection />
+      </section>
+      <section>
+        <TechStackSection/>
       </section>
       <section>
         <ProjectsSection />

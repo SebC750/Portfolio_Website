@@ -1,0 +1,66 @@
+[
+    {
+        "technology": "HTML5",
+        "technology_icon": "devicon-html5-plain-wordmark"
+    },
+    {
+        "technology": "CSS3",
+        "technology_icon": "devicon-css3-plain-wordmark"
+    },
+    {
+        "technology": "Javascript",
+        "technology_icon": "devicon-javascript-plain"
+    },
+    {
+        "technology": "Bootstrap",
+        "technology_icon": "devicon-bootstrap-plain"
+    },
+    {
+        "technology": "React.js",
+        "technology_icon": "devicon-react-plain"
+    },
+    {
+        "technology": "Java",
+        "technology_icon": "devicon-java-plain"
+    },
+    {
+        "technology": "Python",
+        "technology_icon": "devicon-python-plain"
+    },
+    {
+        "technology": "MySQL",
+        "technology_icon": "devicon-mysql-plain"
+    },
+    {
+        "technology": "MongoDB",
+        "technology_icon": "devicon-mongodb-plain"
+    },
+    {
+        "technology": "Neo4j",
+        "technology_icon": "devicon-neo4j-plain"
+    },
+    {
+        "technology": "PHP",
+        "technology_icon": "devicon-php-plain"
+    },
+    {
+        "technology": "Electron.js",
+        "technology_icon": "devicon-electron-original"
+    },
+    {
+        "technology": "Docker",
+        "technology_icon": "devicon-docker-plain"
+    },
+    {
+        "technology": "Vite",
+        "technology_icon": "devicon-vitejs-plain"
+    },
+    {
+        "technology": "Vercel",
+        "technology_icon": "devicon-vercel-plain"
+    },
+    {
+        "technology": "Google Cloud Platform",
+        "technology_icon": "devicon-googlecloud-plain"
+    }
+]

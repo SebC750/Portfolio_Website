@@ -1,0 +1,45 @@
+[
+    {
+        "project_name": "Semantically Knowledge Graph-based Recommendation System",
+        "project_description": "",
+        "tech_stack": ["html", "css3","javascript", "bootstrap","php","mysql"],
+        "project_link": ""
+    },
+    {
+        "project_name": "AI Tutor",
+        "project_description": "",
+        "tech_stack": ["html", "css3","javascript", "bootstrap","python","mysql"],
+        "project_link": ""
+    },
+    {
+        "project_name": "My Personal Art Gallery",
+        "project_description": "",
+        "tech_stack": ["html", "css3","javascript", "bootstrap","python","mongodb"],
+        "project_link": ""
+    },
+    {
+        "project_name": "Vehicular Cloud Real Time System",
+        "project_description": "",
+        "tech_stack": ["java", "mysql"],
+        "project_link": ""
+    },
+    {
+        "project_name": "Biophysics Group Research Lab Website",
+        "project_description": "",
+        "tech_stack": ["html", "css3","javascript", "bootstrap"],
+        "project_link": ""
+    },
+    {
+        "project_name": "Wine Quality Dataset",
+        "project_description": "",
+        "tech_stack": ["python"],
+        "project_link": ""
+    },
+    {
+        "project_name": "Billiards Sol y Luna Order Tracking Desktop App",
+        "project_description": "",
+        "tech_stack": ["html", "css3","javascript", "bootstrap","electron"],
+        "project_link": ""
+    }
+    
+]

@@ -1,6 +1,6 @@
 const IntroSection = () => {
   return (
-    <div className="bg-dark-blue text-yellow ">
+    <div className="bg-dark text-yellow ">
       <div className="card text-bg-dark border-0">
         <img src="background_hero_picture.jpg" className="card-img opacity-50" alt="my profile picture" />
         <div className="card-img-overlay">

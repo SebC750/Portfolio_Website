@@ -30,6 +30,16 @@ Custom utility classes meant to help myself create a more unique look for my pag
   border-width: 0 0 0 3px;
   border-color: yellow;
 }
+.header-border-yellow{
+  border-style: solid;
+  border-width: 0 0 3px 0;
+  border-color: yellow;
+}
+.standard-border-yellow{
+  border-style: solid;
+  border-width: 3px 3px 3px 3px;
+  border-color: yellow;
+}
 .bg-yellow{
   background-color: yellow;
 }
@@ -56,4 +66,12 @@ Custom utility classes meant to help myself create a more unique look for my pag
 }
 .nav-logo:hover{
   text-shadow: none;
+}
+.language-icons{
+  font-size: 64px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.language-icons:hover{
+     font-size: 72px;
 }

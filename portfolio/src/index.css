@@ -7,10 +7,12 @@ li {
 }
 h1,h2,h3,h4,h5,h6{
   font-family: "Noto Sans", sans-serif;
+  font-display: swap;
 }
 /* 
 Custom utility classes meant to help myself create a more unique look for my page.
 */
+
 .nav-item a{
   color: yellow;
   text-decoration: none;
@@ -74,4 +76,7 @@ Custom utility classes meant to help myself create a more unique look for my pag
 }
 .language-icons:hover{
      font-size: 72px;
+}
+.attribution-text{
+    font-size: 12px;
 }

@@ -18,7 +18,7 @@ function App() {
       <section>
         <AboutSection />
       </section>
-      <section>
+      <section >
         <TechStackSection/>
       </section>
       <section>

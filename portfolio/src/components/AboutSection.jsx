@@ -15,8 +15,7 @@ const AboutSection = () => {
         <p> Beyond coding, I also engage in a handful of hobbies: </p>
         <ul>
           <li> <i className="bi bi-pencil-fill"></i> Drawing </li>
-          <li> <i className="bi bi-reddit"></i> Reddit </li>
-          <li> <i className="bi bi-globe-americas"></i> Traveling </li>
+          <li> <i className="bi bi-globe"></i> Traveling </li>
           <li> <i className="bi bi-music-note"></i> Alternative music </li>
         </ul>
       </div>

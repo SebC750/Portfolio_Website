@@ -60,11 +60,11 @@ Custom utility classes meant to help myself create a more unique look for my pag
   font-size: 12px;
   text-align: center;
 }
-.nav-logo{
+.nav-logo a{
   text-shadow: 2px 2px rgb(208, 159, 0);
   transition: all 0.3s ease;
 }
-.nav-logo:hover{
+.nav-logo a:hover{
   text-shadow: none;
 }
 .language-icons{

@@ -14,7 +14,7 @@ const TechStackSection = () => {
                         <>
                             <div key={index} className="col d-flex flex-col align-items-center gap-2">
                                 <i className={`${val.technology_icon} language-icons`}></i>
-                                <h6> {val.technology} </h6>
+                                <h4> {val.technology} </h4>
                             </div>
                         </>
                     ))}

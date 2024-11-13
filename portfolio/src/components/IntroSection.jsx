@@ -1,8 +1,8 @@
 const IntroSection = () => {
   return (
     <div className="bg-dark text-yellow " id="intro-section">
-      <div className="card text-bg-dark border-0">
-        <img src="background_hero_picture.jpg" className="card-img opacity-50" alt="my profile picture" />
+      <div className="card text-bg-dark border-0 " >
+        <img src="background_hero_picture.webp" className="card-img w-100 h-auto" height="600" width="500" alt="Background for the hero section with a keyboard dimly lit in a black backdrop." />
         <div className="card-img-overlay">
           <div className="card-body text-center text-yellow mt-5 pt-5 d-none d-sm-block">
             <h5 className=""> Hello. My name is: </h5>

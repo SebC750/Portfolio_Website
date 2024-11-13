@@ -50,10 +50,10 @@
     },
     {
         "project_name": "Billiards Sol y Luna Website",
-        "project_description": "Recently, I have observed that people coming into the business recently mention that they found the business on google. I decided to work on a website to display public information about the establishment, what we offer and contact information. This website is a work in progress.",
+        "project_description": "Recently, I have observed that people coming into the business recently mention that they found the business on google. I decided to work on a website to display public information about the establishment, what we offer and contact information. This is my first time using tailwindcss, typescript and firebase hosting.",
         "tech_stack": ["html5", "css3","typescript", "tailwindcss"],
         "project_thumbnail":"project_thumbnails/billiards_website_thumbnail.webp",
-        "project_link": "https://github.com/SebC750/BilliardsSolYLuna"
+        "project_link": "https://billiardssolylunawebsite.web.app/"
     }
     
 ]

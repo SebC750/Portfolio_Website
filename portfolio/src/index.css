@@ -77,3 +77,6 @@ Custom utility classes meant to help myself create a more unique look for my pag
 .language-icons:hover{
      font-size: 72px;
 }
+.attribution-text{
+    font-size: 12px;
+}

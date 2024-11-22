@@ -32,8 +32,8 @@
         "technology_icon": "devicon-mysql-plain"
     },
     {
-        "technology": "MongoDB",
-        "technology_icon": "devicon-mongodb-plain"
+        "technology": "Node.js",
+        "technology_icon": "devicon-nodejs-plain"
     },
     {
         "technology": "Neo4j",

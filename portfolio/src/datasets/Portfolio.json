@@ -2,7 +2,7 @@
     {
         "project_name": "Semantically Knowledge Graph-based Recommendation System",
         "project_description": "I contributed to an existing research project in which I was tasked with developing a knowledge graph-based recommendation system. I leveraged Neo4j's entity-relationship data structure to store medical ontologies in a machine readable format, allowing for accurate retrival of ontology definitions for medical experts.",
-        "tech_stack": ["html5", "css3","javascript", "bootstrap","php","mysql"],
+        "tech_stack": ["html5", "css3","javascript", "bootstrap","php","neo4j"],
         "project_thumbnail":"project_thumbnails/knowledge_graph_thumbnail.webp",
         "project_link": "https://github.com/bukharilab/KG4BioMedCntnAuthoring"
     },
@@ -16,7 +16,7 @@
     {
         "project_name": "My Personal Art Gallery",
         "project_description": "I created a website where I host my collection of artworks and illustrations I have made over the years since high school. My website includes different kinds of art from comics, single illustrations and animations. I am also currently working on a backend to store my artworks and allow commenting on posts.",
-        "tech_stack": ["html5", "css3","javascript", "bootstrap","python","mongodb"],
+        "tech_stack": ["html5", "css3","javascript", "bootstrap","nodejs","googlecloud"],
         "project_thumbnail":"project_thumbnails/art_gallery_thumbnail.webp",
         "project_link": "https://art-gallery-portfolio.vercel.app/"
     },
@@ -30,7 +30,7 @@
     {
         "project_name": "Biophysics Group Research Lab Website",
         "project_description": "Built a static website to display public information about a biophysics research group based in Colombia. The website provides information about the team's areas of research, members, publications and contact information.",
-        "tech_stack": ["html5", "css3","javascript", "bootstrap"],
+        "tech_stack": ["html5", "css3","javascript", "bootstrap", "vercel"],
         "project_thumbnail":"project_thumbnails/biophysics_group_thumbnail.webp",
         "project_link": "https://marco-lab-website.vercel.app/"
     },
@@ -51,7 +51,7 @@
     {
         "project_name": "Billiards Sol y Luna Website",
         "project_description": "Recently, I have observed that people coming into the business recently mention that they found the business on google. I decided to work on a website to display public information about the establishment, what we offer and contact information. This is my first time using tailwindcss, typescript and firebase hosting.",
-        "tech_stack": ["html5", "css3","typescript", "tailwindcss"],
+        "tech_stack": ["html5", "css3","typescript", "tailwindcss", "googlecloud"],
         "project_thumbnail":"project_thumbnails/billiards_website_thumbnail.webp",
         "project_link": "https://billiardssolylunawebsite.web.app/"
     }

@@ -11,8 +11,8 @@ const IntroSection = () => {
               You can learn more about me and see my work on this webpage.
             </h5>
             <ul className="d-flex justify-content-center gap-2">
-              <li> <a className="nav-link" href="#about-section"> <button className="btn btn-yellow rounded-0"> Learn more about me </button> </a></li>
-              <li> <a className="nav-link" href="#portfolio-section"> <button className="btn btn-yellow rounded-0"> Go to portfolio </button></a></li>
+              <li> <a className="nav-link" href="#about-section"> <button className="btn btn-yellow fw-semibold"> Learn more about me </button> </a></li>
+              <li> <a className="nav-link" href="#portfolio-section"> <button className="btn btn-yellow fw-semibold"> Go to portfolio </button></a></li>
             </ul>
           </div>
         </div>

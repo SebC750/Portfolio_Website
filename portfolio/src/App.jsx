@@ -18,11 +18,11 @@ function App() {
       <section>
         <AboutSection />
       </section>
-      <section >
-        <TechStackSection/>
-      </section>
       <section>
         <ProjectsSection />
+      </section>
+      <section >
+        <TechStackSection/>
       </section>
       <footer>
         <Footer />

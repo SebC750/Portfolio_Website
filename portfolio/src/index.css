@@ -2,9 +2,6 @@ html, body{
     padding: 0;
     margin: 0;
 }
-li {
-  list-style-type: none;
-}
 h1,h2,h3,h4,h5,h6{
   font-family: "Noto Sans", sans-serif;
   font-display: swap;
@@ -70,12 +67,12 @@ Custom utility classes meant to help myself create a more unique look for my pag
   text-shadow: none;
 }
 .language-icons{
-  font-size: 64px;
+  font-size: 56px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 .language-icons:hover{
-     font-size: 72px;
+     font-size: 64px;
 }
 .attribution-text{
     font-size: 12px;

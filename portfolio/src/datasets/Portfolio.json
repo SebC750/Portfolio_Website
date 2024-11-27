@@ -1,59 +1,146 @@
 [
     {
-        "project_name": "Semantically Knowledge Graph-based Recommendation System",
-        "project_description": "I contributed to an existing research project in which I was tasked with developing a knowledge graph-based recommendation system. I leveraged Neo4j's entity-relationship data structure to store medical ontologies in a machine readable format, allowing for accurate retrival of ontology definitions for medical experts.",
-        "tech_stack": ["html5", "css3","javascript", "bootstrap","php","neo4j"],
-        "project_thumbnail":"project_thumbnails/knowledge_graph_thumbnail.webp",
+        "project_name": "Knowledge Graph-based Recommendation System",
+        "project_description": [
+            "Developed a knowledge graph-based recommendation system for Semantically, a biomedical platform enhancing health data retrieval through enriched metadata.",
+            "Created a Neo4j graph database to store medical ontology and expert data, enabling accurate and efficient recommendations.",
+            "Rewrote PHP backend to support Cypher queries for Neo4j data retrieval and integrated D3.js for interactive ontology graph visualization."
+        ],
+        "tech_stack": [
+            "html5",
+            "css3",
+            "javascript",
+            "bootstrap",
+            "react",
+            "php",
+            "neo4j"
+        ],
+        "project_thumbnail": "project_thumbnails/knowledge_graph_thumbnail.webp",
         "project_link": "https://github.com/bukharilab/KG4BioMedCntnAuthoring"
     },
     {
         "project_name": "AI Tutor",
-        "project_description": "I work with a team to develop an AI-powered intelligent tutoring system designed to personalize students' learning environments through scaffolding. Our system is meant to address long-standing problems with standardized curriculums by tailoring learning structure for various learning styles. Currently also exploring cloud hosting for the demo.",
-        "tech_stack": ["html5", "css3","javascript", "bootstrap","python","mysql"],
-        "project_thumbnail":"project_thumbnails/ai_tutor_thumbnail.webp",
+        "project_description": [
+            "Collaborated with a team to create an AI-powered Intelligent Tutoring System that personalizes learning through adaptive scaffolding.",
+            "Implemented the system's UI using Bootstrap to quickly prepare a modern, responsive frontend.",
+            "Dockerized frontend and backend repositories to ensure all teammates have the same dependency versions."
+        ],
+        "tech_stack": [
+            "html5",
+            "css3",
+            "javascript",
+            "bootstrap",
+            "react",
+            "vitejs",
+            "docker",
+            "python",
+            "mysql"
+        ],
+        "project_thumbnail": "project_thumbnails/ai_tutor_thumbnail.webp",
         "project_link": "https://github.com/sju-nlp-lab"
     },
     {
         "project_name": "My Personal Art Gallery",
-        "project_description": "I created a website where I host my collection of artworks and illustrations I have made over the years since high school. My website includes different kinds of art from comics, single illustrations and animations. I am also currently working on a backend to store my artworks and allow commenting on posts.",
-        "tech_stack": ["html5", "css3","javascript", "bootstrap","nodejs","googlecloud"],
-        "project_thumbnail":"project_thumbnails/art_gallery_thumbnail.webp",
+        "project_description": [
+            "Built a personal website to host my collection of cartoon illustrations made throughout my life in a user friendly interface.",
+            "Currently developing a Node.js backend to support get requests for displaying art pieces from the firebase firestore database.",
+            "Wrote a sorting function using a merge sort algorithm to future-proof the sorting functionality for handling large datasets."
+        ],
+        "tech_stack": [
+            "html5",
+            "css3",
+            "javascript",
+            "bootstrap",
+            "react",
+            "vitejs",
+            "nodejs",
+            "vercel",
+            "googlecloud"
+        ],
+        "project_thumbnail": "project_thumbnails/art_gallery_thumbnail.webp",
         "project_link": "https://art-gallery-portfolio.vercel.app/"
     },
     {
         "project_name": "Vehicular Cloud Real Time System",
-        "project_description": "I collaborated with a team to work on a capstone project where we built a client-server architecture that simulates the use of computer hardware of vehicles to execute jobs such as image processing, file storage etc. The system is complete with a frontend GUI and a backend server.",
-        "tech_stack": ["java", "mysql"],
-        "project_thumbnail":"project_thumbnails/vcrts_thumbnail.webp",
+        "project_description": [
+            "Worked with an AGILE development team to build a client-server architecture for real-time data processing leveraging hardware power from idle vehicles.",
+            "Added logging for user logins and database processes, scrutinizing all requests to the database for security.",
+            "Set up the backend by integrating MySQL database, ensuring proper storage of data for cars and jobs."
+        ],
+        "tech_stack": [
+            "java",
+            "mysql"
+        ],
+        "project_thumbnail": "project_thumbnails/vcrts_thumbnail.webp",
         "project_link": "https://github.com/nixkhm/VCRTSGroup4"
     },
     {
         "project_name": "Biophysics Group Research Lab Website",
-        "project_description": "Built a static website to display public information about a biophysics research group based in Colombia. The website provides information about the team's areas of research, members, publications and contact information.",
-        "tech_stack": ["html5", "css3","javascript", "bootstrap", "vercel"],
-        "project_thumbnail":"project_thumbnails/biophysics_group_thumbnail.webp",
+        "project_description": [
+            "Created a static website for a biophysics researcher to display public information and research publications authored by him and his biophysics team.",
+            "Designed a research page where all research is displayed in a clean UI, along with pagination to ensure efficient data retrieval."
+        ],
+        "tech_stack": [
+            "html5",
+            "css3",
+            "javascript",
+            "bootstrap",
+            "react",
+            "vitejs",
+            "vercel"
+        ],
+        "project_thumbnail": "project_thumbnails/biophysics_group_thumbnail.webp",
         "project_link": "https://marco-lab-website.vercel.app/"
     },
     {
         "project_name": "Wine Quality Dataset",
-        "project_description": "Participated in a kaggle competition where I competed against 15 other developers to use the regression model that can most accurately predict the quality of wine given sample training data. I conducted numerous training I finished in fourth place.",
-        "tech_stack": ["python"],
-        "project_thumbnail":"project_thumbnails/wine_quality_thumbnail.webp",
+        "project_description": [
+            "Participated in a data mining kaggle competition where participants had to develop machine learning models that can predict the overall quality of wines given data such as sulfuric acidity and alcohol content.",
+            "Tested and fine-tuned different regression models such as linear regression and random forest trees to determine which would output the most accurate answers.",
+            "Finished fourth place amongst 16 participants with a predictive performance score of 0.36188."
+        ],
+        "tech_stack": [
+            "python"
+        ],
+        "project_thumbnail": "project_thumbnails/wine_quality_thumbnail.webp",
         "project_link": "https://www.kaggle.com/competitions/wine-quality-final-dataset/leaderboard"
     },
     {
         "project_name": "Billiards Sol y Luna Order Tracking Desktop App",
-        "project_description": "For many years, my family's business has been catering to customers in a pool hall. Current methods of tracking orders are tedious and unreliable. To solve this issue, I created an order tracking system for our business. The program maintains an order history, tracked orders, pool table timers and debt status to resolve disputes.",
-        "tech_stack": ["html5", "css3","javascript", "bootstrap","electron"],
-        "project_thumbnail":"project_thumbnails/billiards_order_tracker_thumbnail.webp",
+        "project_description": [
+            "Developed an offline order tracking desktop app for the family business to manage current orders, past invoices and status of debts owed.",
+            "Used React-Bootstrap to implement bootstrap components that work seamlessly with React's component-based system.",
+            "Added tip options, sales tax and receipt history section with debt status for unpaid orders, boosting the business' profits with a seamless invoice generation system."
+        ],
+        "tech_stack": [
+            "html5",
+            "css3",
+            "javascript",
+            "bootstrap",
+            "react",
+            "vitejs",
+            "electron"
+        ],
+        "project_thumbnail": "project_thumbnails/billiards_order_tracker_thumbnail.webp",
         "project_link": "https://github.com/SebC750/BilliardsSolYLuna"
     },
     {
         "project_name": "Billiards Sol y Luna Website",
-        "project_description": "Recently, I have observed that people coming into the business recently mention that they found the business on google. I decided to work on a website to display public information about the establishment, what we offer and contact information. This is my first time using tailwindcss, typescript and firebase hosting.",
-        "tech_stack": ["html5", "css3","typescript", "tailwindcss", "googlecloud"],
-        "project_thumbnail":"project_thumbnails/billiards_website_thumbnail.webp",
+        "project_description": [
+            "Hosted a public website for the family business, a pool hall and bar in Corona, NY, to display public information including menu items and special offers.",
+            "Added the website to the google business page so visitors can easily find information on the establishment.",
+            "Leveraged typescript's typing system to create strongly typed data structures for objects such as gallery images and information cards."
+        ],
+        "tech_stack": [
+            "html5",
+            "css3",
+            "typescript",
+            "tailwindcss",
+            "react",
+            "vitejs",
+            "googlecloud"
+        ],
+        "project_thumbnail": "project_thumbnails/billiards_website_thumbnail.webp",
         "project_link": "https://billiardssolylunawebsite.web.app/"
     }
-    
 ]

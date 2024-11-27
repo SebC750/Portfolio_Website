@@ -6,11 +6,11 @@ const AboutSection = () => {
         <p> My name is Sebastian Chalarca and I am a passionate software developer.
           I specialize in developing and maintaining high quality software including:
         </p>
-        <ul>
-          <li> <i className="bi bi-globe2"></i> Full stack web applications </li>
-          <li> <i className="bi bi-window-sidebar"></i> Desktop applications</li>
-          <li> <i className="bi bi-pencil-square"></i> Jupyter notebooks</li>
-          <li> <i className="bi bi-gear-fill"></i> Automation scripts</li>
+        <ul className="list-group-flush">
+          <li className="list-group-item"> <i className="bi bi-globe2"></i> Full stack web applications </li>
+          <li className="list-group-item"> <i className="bi bi-window-sidebar"></i> Desktop applications</li>
+          <li className="list-group-item"> <i className="bi bi-pencil-square"></i> Jupyter notebooks</li>
+          <li className="list-group-item"> <i className="bi bi-gear-fill"></i> Automation scripts</li>
         </ul>
         <p> Beyond coding, I also engage in a handful of hobbies: </p>
         <ul className="list-group-flush">

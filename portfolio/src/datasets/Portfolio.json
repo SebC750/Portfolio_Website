@@ -1,62 +1,119 @@
 [
     {
-        "project_name": "Semantically Knowledge Graph-based Recommendation System",
-        "project_description": ["Hello", "World"],
-        "tech_stack": ["html5", "css3","javascript", "bootstrap","react","php","neo4j"],
-        "project_thumbnail":"project_thumbnails/knowledge_graph_thumbnail.webp",
+        "project_name": "Knowledge Graph-based Recommendation System",
+        "project_description": [
+            "Developed a knowledge graph-based recommendation system for Semantically, a biomedical platform enhancing health data retrieval through enriched metadata.",
+            "Created a Neo4j graph database to store medical ontology and expert data, enabling accurate and efficient recommendations.",
+            "Rewrote PHP backend to support Cypher queries for Neo4j data retrieval and integrated D3.js for interactive ontology graph visualization."
+        ],
+        "tech_stack": [
+            "html5",
+            "css3",
+            "javascript",
+            "bootstrap",
+            "react",
+            "php",
+            "neo4j"
+        ],
+        "project_thumbnail": "project_thumbnails/knowledge_graph_thumbnail.webp",
         "project_link": "https://github.com/bukharilab/KG4BioMedCntnAuthoring"
     },
     {
         "project_name": "AI Tutor",
         "project_description": [
-         "Collaborated with a team to create an AI-powered Intelligent Tutoring System that personalizes learning through adaptive scaffolding.",
-         "Designed the system to address challenges with standardized curriculums by customizing content for different learning styles.",
-         "Currently exploring cloud hosting solutions to deploy the demo for scalability and reliability."],
-        "tech_stack": ["html5", "css3","javascript", "bootstrap","react","vitejs","docker","python","mysql"],
-        "project_thumbnail":"project_thumbnails/ai_tutor_thumbnail.webp",
+            "Collaborated with a team to create an AI-powered Intelligent Tutoring System that personalizes learning through adaptive scaffolding.",
+            "Implemented the system's UI using Bootstrap to quickly prepare a modern, responsive frontend.",
+            "Dockerized frontend and backend repositories to ensure all teammates have the same dependency versions."
+        ],
+        "tech_stack": [
+            "html5",
+            "css3",
+            "javascript",
+            "bootstrap",
+            "react",
+            "vitejs",
+            "docker",
+            "python",
+            "mysql"
+        ],
+        "project_thumbnail": "project_thumbnails/ai_tutor_thumbnail.webp",
         "project_link": "https://github.com/sju-nlp-lab"
     },
     {
         "project_name": "My Personal Art Gallery",
-        "project_description": ["Hello", "World"],
-        "tech_stack": ["html5", "css3","javascript", "bootstrap","react","vitejs","nodejs","vercel","googlecloud"],
-        "project_thumbnail":"project_thumbnails/art_gallery_thumbnail.webp",
+        "project_description": [
+            "Built a personal website to host my collection of cartoon illustrations made throughout my life in a user friendly interface.",
+            "Currently developing a Node.js backend to support get requests for displaying art pieces from the firebase firestore database.",
+            "Wrote a sorting function using a merge sort algorithm to future-proof the sorting functionality for handling large datasets."
+        ],
+        "tech_stack": [
+            "html5",
+            "css3",
+            "javascript",
+            "bootstrap",
+            "react",
+            "vitejs",
+            "nodejs",
+            "vercel",
+            "googlecloud"
+        ],
+        "project_thumbnail": "project_thumbnails/art_gallery_thumbnail.webp",
         "project_link": "https://art-gallery-portfolio.vercel.app/"
     },
     {
-        "project_name": "Vehicular Cloud Real Time System",
-        "project_description": ["Hello", "World"],
-        "tech_stack": ["java", "mysql"],
-        "project_thumbnail":"project_thumbnails/vcrts_thumbnail.webp",
-        "project_link": "https://github.com/nixkhm/VCRTSGroup4"
-    },
-    {
         "project_name": "Biophysics Group Research Lab Website",
-        "project_description": ["Hello", "World"],
-        "tech_stack": ["html5", "css3","javascript", "bootstrap", "react", "vitejs", "vercel"],
-        "project_thumbnail":"project_thumbnails/biophysics_group_thumbnail.webp",
+        "project_description": [
+            "Created a static website for a biophysics researcher to display public information and research publications authored by him and his biophysics team.",
+            "Designed a research page where all research is displayed in a clean UI, along with pagination to ensure efficient data retrieval."
+        ],
+        "tech_stack": [
+            "html5",
+            "css3",
+            "javascript",
+            "bootstrap",
+            "react",
+            "vitejs",
+            "vercel"
+        ],
+        "project_thumbnail": "project_thumbnails/biophysics_group_thumbnail.webp",
         "project_link": "https://marco-lab-website.vercel.app/"
     },
     {
-        "project_name": "Wine Quality Dataset",
-        "project_description": ["Hello", "World"],
-        "tech_stack": ["python"],
-        "project_thumbnail":"project_thumbnails/wine_quality_thumbnail.webp",
-        "project_link": "https://www.kaggle.com/competitions/wine-quality-final-dataset/leaderboard"
-    },
-    {
         "project_name": "Billiards Sol y Luna Order Tracking Desktop App",
-        "project_description": ["Hello", "World"],
-        "tech_stack": ["html5", "css3","javascript", "bootstrap", "react","vitejs","electron"],
-        "project_thumbnail":"project_thumbnails/billiards_order_tracker_thumbnail.webp",
+        "project_description": [
+            "Developed an offline order tracking desktop app for the family business to manage current orders, past invoices and status of debts owed.",
+            "Used React-Bootstrap to implement bootstrap components that work seamlessly with React's component-based system.",
+            "Added tip options, sales tax and receipt history section with debt status for unpaid orders, boosting the business' profits with a seamless invoice generation system."
+        ],
+        "tech_stack": [
+            "html5",
+            "css3",
+            "javascript",
+            "bootstrap",
+            "react",
+            "vitejs",
+            "electron"
+        ],
+        "project_thumbnail": "project_thumbnails/billiards_order_tracker_thumbnail.webp",
         "project_link": "https://github.com/SebC750/BilliardsSolYLuna"
     },
     {
         "project_name": "Billiards Sol y Luna Website",
-        "project_description": ["Hello", "World"],
-        "tech_stack": ["html5", "css3","typescript", "tailwindcss", "react","vitejs","googlecloud"],
-        "project_thumbnail":"project_thumbnails/billiards_website_thumbnail.webp",
+        "project_description": [
+            "Hosted a public website for the family business, a pool hall and bar in Corona, NY, to display public information including menu items and special offers.",
+            "Added the website to the google business page so visitors can easily find information on the establishment.",
+            "Leveraged typescript's typing system to create strongly typed data structures for objects such as gallery images and information cards."
+        ],
+        "tech_stack": [
+            "html5",
+            "css3",
+            "typescript",
+            "tailwindcss",
+            "react",
+            "vitejs",
+            "googlecloud"
+        ],
+        "project_thumbnail": "project_thumbnails/billiards_website_thumbnail.webp",
         "project_link": "https://billiardssolylunawebsite.web.app/"
     }
-    
 ]

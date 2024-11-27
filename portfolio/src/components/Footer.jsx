@@ -6,19 +6,19 @@ const Footer = () => {
           <div className="row">
             <div className="col-12 col-md-4">
               <h4 className="fw-bold"> Sebastian Chalarca </h4>
-              <ul className="ps-0">
-                <li> <i className="bi bi-geo-alt-fill"></i> New York City, NY</li>
-                <li> <i className="bi bi-envelope-fill"></i> sebastian.chalarca.dev@gmail.com</li>
-                <li> <i className="bi bi-telephone-fill"></i> 929-216-4699</li>
+              <ul className="list-group-flush">
+                <li className="list-group-item"> <i className="bi bi-geo-alt-fill"></i> New York City, NY</li>
+                <li className="list-group-item"> <i className="bi bi-envelope-fill"></i> sebastian.chalarca.dev@gmail.com</li>
+                <li className="list-group-item"> <i className="bi bi-telephone-fill"></i> 929-216-4699</li>
               </ul>
             </div>
             <div className="col-12 col-md-4 d-none d-sm-block">
               <h4 className="fw-bold"> Quick links </h4>
-              <ul >
-                <li> <a className="nav-link" href="#intro-section"> Home </a> </li>
-                <li> <a className="nav-link" href="#about-section"> About me </a> </li>
-                <li> <a className="nav-link" href="#skills-section"> Tech stack </a> </li>
-                <li> <a className="nav-link" href="#portfolio"> Portfolio </a>  </li>
+              <ul className="list-group-flush" >
+                <li className="list-group-item"> <a className="nav-link" href="#intro-section"> Home </a> </li>
+                <li className="list-group-item"> <a className="nav-link" href="#about-section"> About me </a> </li>
+                <li className="list-group-item"> <a className="nav-link" href="#skills-section"> Tech stack </a> </li>
+                <li className="list-group-item"> <a className="nav-link" href="#portfolio"> Portfolio </a>  </li>
               </ul>
             </div>
             <div className="col-12 col-md-4 d-none d-sm-block">

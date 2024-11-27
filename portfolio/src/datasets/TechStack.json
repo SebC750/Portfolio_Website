@@ -19,10 +19,6 @@
     ],
     "Backend": [
         {
-            "technology": "Java",
-            "technology_icon": "devicon-java-plain"
-        },
-        {
             "technology": "Python",
             "technology_icon": "devicon-python-plain"
         },

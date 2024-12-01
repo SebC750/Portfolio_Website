@@ -36,8 +36,8 @@ const Navbar = () => {
                     <ul className="navbar-nav gap-sm-2 gap-0 d-flex align-items-center ms-auto pe-4">
                         <li className="nav-item"><h3><a href="#intro-section">Home</a></h3></li>
                         <li className="nav-item"><h3><a href="#about-section">About</a></h3></li>
-                        <li className="nav-item"><h3><a href="#skills-section">Skills</a></h3></li>
                         <li className="nav-item"><h3><a href="#portfolio-section">Portfolio</a></h3></li>
+                        <li className="nav-item"><h3><a href="#skills-section">Skills</a></h3></li>
                         <li className="nav-item"><h3><a href="#contacts">Contacts</a></h3></li>
                     </ul>
                     <div className="d-flex align-items-center text-center text-sm-left justify-content-center gap-2">

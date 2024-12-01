@@ -8,14 +8,14 @@ const AboutSection = () => {
         </p>
         <ul className="list-group-flush">
           <li className="list-group-item"> <i className="bi bi-globe2"></i> Full stack web applications </li>
+          <li className="list-group-item"> <i className="bi bi-layout-text-window-reverse"></i> Static websites </li>
           <li className="list-group-item"> <i className="bi bi-window-sidebar"></i> Desktop applications</li>
           <li className="list-group-item"> <i className="bi bi-pencil-square"></i> Jupyter notebooks</li>
-          <li className="list-group-item"> <i className="bi bi-gear-fill"></i> Automation scripts</li>
         </ul>
         <p> Beyond coding, I also engage in a handful of hobbies: </p>
         <ul className="list-group-flush">
           <li className="list-group-item"> <i className="bi bi-pencil-fill"></i> Drawing </li>
-          <li className="list-group-item"> <i className="bi bi-globe"></i> Traveling </li>
+          <li className="list-group-item"> <i class="bi bi-geo-alt-fill"></i> Traveling </li>
           <li className="list-group-item"> <i className="bi bi-music-note"></i> Alternative music (Mostly Gothic rock and Darkwave)</li>
         </ul>
         <strong> Important notes: </strong>

@@ -4,11 +4,13 @@ const ProjectsSection = () => {
     <div className="bg-dark p-3 p-sm-5 ">
       <h3 className="header-border-yellow text-yellow" id="portfolio-section"> Portfolio </h3>
       <div className="container-fluid">
-        <p className="text-yellow"> This is my list of projects that I have worked on or currently working on. This includes personal and work projects. </p>
-        <div className="row ">
+        <p className="text-yellow"> This section features a few of my best works in software development, including both personal and professional projects. 
+          Please note that this is not an exhaustive list of my projects. Additional work can be found on my
+          <a className="text-yellow" href="https://github.com/SebC750?tab=repositories"> Github </a></p>
+        <div className="row row-cols-1 row-cols-lg-2">
           {portfolio.map((val, index) => (
             <>
-              <div key={index} className="col-12 col-lg-6 col-xl-4 d-flex align-items-stretch pb-4">
+              <div key={index} className="col-12 d-flex align-items-stretch pb-4">
                 <div className="card d-flex border-0 shadow shadow-xl w-100 bg-yellow text-dark ">
                   <img src={val.project_thumbnail} alt={`Project thumbnail for ${val.project_name}`} loading="lazy" className="card-img-top object-fit-cover w-100" height="300" width="300" />
                   <div className="card-body d-flex flex-column justify-content-between ">
@@ -22,7 +24,7 @@ const ProjectsSection = () => {
                     ))} </ul>
                     <h6 className="card-text"> Tech stack: </h6>
                     <p className="card-text d-flex">
-                      <div className="row row-cols-3 row-cols-sm-3 row-cols-md-4 row-cols-lg-5">
+                      <div className="row w-100 row-cols-3 row-cols-sm-4 row-cols-md-5 row-cols-lg-6">
                       {Array.from(val.tech_stack).map((val) => (
                         <>
                           <i className={`devicon-${val}-${val === "electron" ? "original" : "plain"} language-icons`}></i>
@@ -48,8 +50,11 @@ const ProjectsSection = () => {
               </div>
             </>
           ))}
+          
         </div>
+        <a className="text-center fs-2 text-yellow d-flex justify-content-center gap-2" href="https://github.com/SebC750?tab=repositories"> More projects on Github <i className="bi bi-box-arrow-up-right"></i></a>
       </div >
+      
     </div >
   )
 }

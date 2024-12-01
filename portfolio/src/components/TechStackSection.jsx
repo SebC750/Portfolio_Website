@@ -9,9 +9,9 @@ const TechStackSection = () => {
                     As a full stack developer, I possess extensive knowledge on both frontend and backend technologies.
                     I leverage web languages, backend languages, databases, services and build tools to create efficient systems independently and contribute to my team effectively by working in all aspects of development.
                 </p>
-                <div className="row row-cols-2 text-dark row-cols-md-2">
+                <div className="row row-cols-1 text-dark row-cols-md-2">
                     {Object.keys(techStack).map((category, index) => (
-                        <div className="col-12 col-lg-6 text-dark" key={index}>
+                        <div className="col-12 text-dark" key={index}>
                             <h4 className="border-2 border-dark border-bottom"> {category} </h4>
                             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 align-items-center py-2">
                                 {techStack[category].map((val) => (

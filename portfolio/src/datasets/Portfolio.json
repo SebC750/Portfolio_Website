@@ -23,7 +23,8 @@
         "project_description": [
             "Collaborated with a team to create an AI-powered Intelligent Tutoring System that personalizes learning through adaptive scaffolding.",
             "Implemented the system's UI using Bootstrap to quickly prepare a modern, responsive frontend.",
-            "Dockerized frontend and backend repositories to ensure all teammates have the same dependency versions."
+            "Dockerized frontend and backend repositories to ensure all teammates have the same dependency versions.",
+            "Set up AWS S3, Cloudfront, EC2, RDS and Secrets manager to host a demo for the MSCHE conference event, making our app accessible for testing and collecting user feedback."
         ],
         "tech_stack": [
             "html5",
@@ -34,50 +35,13 @@
             "vitejs",
             "docker",
             "python",
-            "mysql"
+            "mysql",
+            "amazonwebservices"
         ],
         "project_thumbnail": "project_thumbnails/ai_tutor_thumbnail.webp",
         "project_link": "https://github.com/sju-nlp-lab"
     },
-    {
-        "project_name": "My Personal Art Gallery",
-        "project_description": [
-            "Built a personal website to host my collection of cartoon illustrations made throughout my life in a user friendly interface.",
-            "Currently developing a Node.js backend to support get requests for displaying art pieces from the firebase firestore database.",
-            "Wrote a sorting function using a merge sort algorithm to future-proof the sorting functionality for handling large datasets."
-        ],
-        "tech_stack": [
-            "html5",
-            "css3",
-            "javascript",
-            "bootstrap",
-            "react",
-            "vitejs",
-            "nodejs",
-            "vercel",
-            "googlecloud"
-        ],
-        "project_thumbnail": "project_thumbnails/art_gallery_thumbnail.webp",
-        "project_link": "https://art-gallery-portfolio.vercel.app/"
-    },
-    {
-        "project_name": "Biophysics Group Research Lab Website",
-        "project_description": [
-            "Created a static website for a biophysics researcher to display public information and research publications authored by him and his biophysics team.",
-            "Designed a research page where all research is displayed in a clean UI, along with pagination to ensure efficient data retrieval."
-        ],
-        "tech_stack": [
-            "html5",
-            "css3",
-            "javascript",
-            "bootstrap",
-            "react",
-            "vitejs",
-            "vercel"
-        ],
-        "project_thumbnail": "project_thumbnails/biophysics_group_thumbnail.webp",
-        "project_link": "https://marco-lab-website.vercel.app/"
-    },
+    
     {
         "project_name": "Billiards Sol y Luna Order Tracking Desktop App",
         "project_description": [
@@ -116,4 +80,5 @@
         "project_thumbnail": "project_thumbnails/billiards_website_thumbnail.webp",
         "project_link": "https://billiardssolylunawebsite.web.app/"
     }
+    
 ]

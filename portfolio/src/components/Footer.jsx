@@ -3,16 +3,16 @@ const Footer = () => {
     <>
       <div className="bg-dark p-5 text-yellow" id="contacts">
         <div className="container container-sm-fluid">
-          <div className="row">
-            <div className="col-12 col-md-4">
-              <h4 className="fw-bold"> Sebastian Chalarca </h4>
+          <div className="row row-cols-1 row-cols-sm-3">
+            <div className="col-12 d-flex text-sm-start text-center flex-column align-items-center">
+              <h4 className="fw-bold "> Sebastian Chalarca </h4>
               <ul className="list-group-flush">
                 <li className="list-group-item"> <i className="bi bi-geo-alt-fill"></i> New York City, NY</li>
                 <li className="list-group-item"> <i className="bi bi-envelope-fill"></i> sebastian.chalarca.dev@gmail.com</li>
                 <li className="list-group-item"> <i className="bi bi-telephone-fill"></i> 929-216-4699</li>
               </ul>
             </div>
-            <div className="col-12 col-md-4 d-none d-sm-block">
+            <div className="col-12 d-none d-sm-block">
               <h4 className="fw-bold"> Quick links </h4>
               <ul className="list-group-flush" >
                 <li className="list-group-item"> <a className="nav-link" href="#intro-section"> Home </a> </li>
@@ -21,7 +21,7 @@ const Footer = () => {
                 <li className="list-group-item"> <a className="nav-link" href="#portfolio"> Portfolio </a>  </li>
               </ul>
             </div>
-            <div className="col-12 col-md-4 d-none d-sm-block">
+            <div className="col-12 d-none d-sm-block">
               <h4 className="fw-bold"> Also on </h4>
               <ul className="nav gap-2">
                 <li > <a className="pb-1" href="https://www.linkedin.com/in/sebastian-chalarca-603939201/" aria-label="Go to my github profile to see my works"> <img src="LI-In-Bug.png" loading="lazy" aria-label="LinkedIn profile icon link" alt="linkedin logo" height="35" width="40" />  </a> </li>

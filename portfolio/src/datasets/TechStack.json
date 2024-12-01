@@ -19,6 +19,10 @@
     ],
     "Backend": [
         {
+            "technology": "Java",
+            "technology_icon": "devicon-java-plain"
+        },
+        {
             "technology": "Python",
             "technology_icon": "devicon-python-plain"
         },
@@ -57,6 +61,14 @@
         {
             "technology": "Vite",
             "technology_icon": "devicon-vitejs-plain"
+        },
+        {
+            "technology": "Figma",
+            "technology_icon": "devicon-figma-plain"
+        },
+        {
+            "technology": "Postman",
+            "technology_icon": "devicon-postman-plain"
         }
     ],
     "Databases": [
@@ -75,8 +87,12 @@
             "technology_icon": "devicon-vercel-plain"
         },
         {
-            "technology": "Google Cloud",
+            "technology": "GCP",
             "technology_icon": "devicon-googlecloud-plain"
+        },
+        {
+            "technology": "AWS",
+            "technology_icon": "devicon-amazonwebservices-plain"
         }
     ]
 }

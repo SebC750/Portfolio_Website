@@ -24,7 +24,8 @@
             "Collaborated with a team to create an AI-powered Intelligent Tutoring System that personalizes learning through adaptive scaffolding.",
             "Implemented the system's UI using Bootstrap to quickly prepare a modern, responsive frontend.",
             "Dockerized frontend and backend repositories to ensure all teammates have the same dependency versions.",
-            "Set up AWS S3, Cloudfront, EC2, RDS and Secrets manager to host a demo for the MSCHE conference event, making our app accessible for testing and collecting user feedback."
+            "Set up AWS S3, Cloudfront, EC2, RDS and Secrets manager to host a demo for the MSCHE conference event, making our app accessible for testing and collecting user feedback (Website currently under maintenance).",
+            "Code not available on Github due to security concerns but general information about the research lab is here: https://github.com/sju-nlp-lab."
         ],
         "tech_stack": [
             "html5",
@@ -39,7 +40,7 @@
             "amazonwebservices"
         ],
         "project_thumbnail": "project_thumbnails/ai_tutor_thumbnail.webp",
-        "project_link": "https://github.com/sju-nlp-lab"
+        "project_link": "https://ai-tutor-app.com"
     },
     
     {

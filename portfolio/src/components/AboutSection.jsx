@@ -16,11 +16,11 @@ const AboutSection = () => {
         <ul className="list-group-flush">
           <li className="list-group-item"> <i className="bi bi-pencil-fill"></i> Drawing </li>
           <li className="list-group-item"> <i class="bi bi-geo-alt-fill"></i> Traveling </li>
-          <li className="list-group-item"> <i className="bi bi-music-note"></i> Alternative music (Mostly Gothic rock and Darkwave)</li>
+          <li className="list-group-item"> <i className="bi bi-music-note"></i> Music (80s and 90s rock)</li>
         </ul>
         <strong> Important notes: </strong>
         <ol className="list-group-flush list-group-numbered">
-          <li className="list-group-item"> My email (sebastian.chalarca.dev@gmail.com) is my preferred method of contact.</li>
+          <li className="list-group-item"> I can work in person, hybrid or remotely. </li>
           <li className="list-group-item"> I am a fast learner. If technologies in your tech stack are not in the section below, there is no problem. I am always learning new concepts and willing to pick up any tools to get the job done quickly! </li>
           <li className="list-group-item"> I am also open to relocation, if necessary, and salary negotiation. </li>
         </ol>

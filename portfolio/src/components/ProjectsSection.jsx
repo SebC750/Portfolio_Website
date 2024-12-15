@@ -36,7 +36,7 @@ const ProjectsSection = () => {
                     <button className="btn btn-dark d-block w-100 btn-lg">
                       {!val.project_link.includes("github") ? (
                         <>
-                          <a className="nav-link text-yellow p-2 fs-3" href={val.project_link}> <i className="bi bi-globe fs-3"></i> Link to project </a>
+                          <a className="nav-link text-yellow p-2 fs-3" href={val.project_link}> <i className="bi bi-globe fs-3"></i> Website link </a>
                         </>
                       ) :
                         (

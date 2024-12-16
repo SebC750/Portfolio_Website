@@ -9,7 +9,9 @@ h1,h2,h3,h4,h5,h6{
 /* 
 Custom utility classes meant to help myself create a more unique look for my page.
 */
-
+.list-group-item a{
+  color: yellow;
+}
 .nav-item a{
   color: yellow;
   text-decoration: none;

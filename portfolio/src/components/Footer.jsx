@@ -8,7 +8,7 @@ const Footer = () => {
               <h4 className="fw-bold "> Sebastian Chalarca </h4>
               <ul className="list-group-flush">
                 <li className="list-group-item"> <i className="bi bi-geo-alt-fill"></i> New York City, NY</li>
-                <li className="list-group-item"> <i className="bi bi-envelope-fill"></i> sebastian.chalarca.dev@gmail.com</li>
+                <li className="list-group-item"> <i className="bi bi-envelope-fill"></i> <a href="mailto:sebastian.chalarca.dev@gmail.com" title="Send me an email"> sebastian.chalarca.dev@gmail.com </a> </li>
                 <li className="list-group-item"> <i className="bi bi-telephone-fill"></i> 929-216-4699</li>
               </ul>
             </div>

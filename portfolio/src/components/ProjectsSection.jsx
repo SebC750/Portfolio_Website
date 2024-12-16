@@ -6,7 +6,7 @@ const ProjectsSection = () => {
       <div className="container-fluid">
         <p className="text-yellow"> This section features a few of my best works in software development, including both personal and professional projects. 
           Please note that this is not an exhaustive list of my projects. Additional work can be found on my
-          <a className="text-yellow" href="https://github.com/SebC750?tab=repositories"> Github </a></p>
+          <a className="text-yellow" target="_blank" title="See more projects on my github" href="https://github.com/SebC750?tab=repositories"> Github </a></p>
         <div className="row row-cols-1 row-cols-lg-2">
           {portfolio.map((val, index) => (
             <>
@@ -36,12 +36,12 @@ const ProjectsSection = () => {
                     <button className="btn btn-dark d-block w-100 btn-lg">
                       {!val.project_link.includes("github") ? (
                         <>
-                          <a className="nav-link text-yellow p-2 fs-3" href={val.project_link}> <i className="bi bi-globe fs-3"></i> Website link </a>
+                          <a className="nav-link text-yellow p-2 fs-3" target="_blank" title="Visit the live website." href={val.project_link}> <i className="bi bi-globe fs-3"></i> Website link </a>
                         </>
                       ) :
                         (
                           <>
-                            <a className="nav-link text-yellow p-2 fs-4" href={val.project_link}> <i className="bi bi-github fs-3"> </i>Vist github page </a>
+                            <a className="nav-link text-yellow p-2 fs-4" target="_blank" title="See the source code on my github." href={val.project_link}> <i className="bi bi-github fs-3"> </i>Vist github page </a>
                           </>
                         )}
                     </button>
@@ -52,7 +52,7 @@ const ProjectsSection = () => {
           ))}
           
         </div>
-        <a className="text-center fs-2 text-yellow d-flex justify-content-center gap-2" href="https://github.com/SebC750?tab=repositories"> More projects on Github <i className="bi bi-box-arrow-up-right"></i></a>
+        <a className="text-center fs-2 text-yellow d-flex justify-content-center gap-2" target="_blank" title="See more projects on my github" href="https://github.com/SebC750?tab=repositories"> More projects on Github <i className="bi bi-box-arrow-up-right"></i></a>
       </div >
       
     </div >

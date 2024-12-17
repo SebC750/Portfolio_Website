@@ -24,12 +24,12 @@ const Navbar = () => {
     }, []);
 
     return (
-        <nav className={`navbar navbar-expand-lg shadow shadow-xl position-fixed z-3 w-100 ${isScrolled ? "bg-dark" : "bg-transparent"}`}>
+        <nav className={`navbar navbar-expand-lg position-fixed z-3 w-100 ${isScrolled ? "bg-dark" : "bg-transparent"}`}>
             <div className="container-fluid">
-                <h2 className="text-yellow nav-logo fw-bold fs-2">
+                <h2 className="text-white nav-logo fw-bold fs-2">
                     <a className="nav-link" href="#intro-section">Sebastian Chalarca</a>
                 </h2>
-                <button className="bg-yellow navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Menu toggle button">
+                <button className="bg-white navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Menu toggle button">
                     <i className="bi bi-three-dots"></i>
                 </button>
                 <div className="collapse navbar-collapse" id="menu">

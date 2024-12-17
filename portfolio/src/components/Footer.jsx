@@ -1,24 +1,15 @@
 const Footer = () => {
   return (
     <>
-      <div className="bg-dark p-5 text-yellow" id="contacts">
+      <div className="bg-dark p-5 text-white" id="contacts">
         <div className="container container-sm-fluid">
-          <div className="row row-cols-1 row-cols-sm-3">
-            <div className="col-12 d-flex text-sm-start text-center flex-column align-items-center">
-              <h4 className="fw-bold "> Sebastian Chalarca </h4>
+          <div className="row row-cols-1 row-cols-sm-2">
+            <div className="col-12 d-flex text-center text-sm-start flex-column align-items-center">
+              <h4 className="fw-bold text-start"> Contacts </h4>
               <ul className="list-group-flush">
                 <li className="list-group-item"> <i className="bi bi-geo-alt-fill"></i> New York City, NY</li>
                 <li className="list-group-item"> <i className="bi bi-envelope-fill"></i> <a href="mailto:sebastian.chalarca.dev@gmail.com" title="Send me an email"> sebastian.chalarca.dev@gmail.com </a> </li>
                 <li className="list-group-item"> <i className="bi bi-telephone-fill"></i> 929-216-4699</li>
-              </ul>
-            </div>
-            <div className="col-12 d-none d-sm-block">
-              <h4 className="fw-bold"> Quick links </h4>
-              <ul className="list-group-flush" >
-                <li className="list-group-item"> <a className="nav-link" href="#intro-section"> Home </a> </li>
-                <li className="list-group-item"> <a className="nav-link" href="#about-section"> About me </a> </li>
-                <li className="list-group-item"> <a className="nav-link" href="#skills-section"> Tech stack </a> </li>
-                <li className="list-group-item"> <a className="nav-link" href="#portfolio"> Portfolio </a>  </li>
               </ul>
             </div>
             <div className="col-12 d-none d-sm-block">
@@ -30,7 +21,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <p className="attribution-text text-center opacity-50 text-yellow"> Icons provided by <a href="https://devicon.dev/">Devicon</a>. All product names, logos, and brands are property of their respective owners.
+        <p className="attribution-text text-center opacity-50 text-white"> Icons provided by <a href="https://devicon.dev/">Devicon</a>. All product names, logos, and brands are property of their respective owners.
           Java and the Java logo are trademarks of Oracle Corporation.
           PHP is a trademark of the PHP Group.
           Vercel and the Vercel design are trademarks of Vercel, Inc.

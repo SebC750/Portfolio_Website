@@ -19,12 +19,30 @@
         "project_link": "https://github.com/bukharilab/KG4BioMedCntnAuthoring"
     },
     {
+        "project_name": "Biophysics Group Research Lab Website",
+        "project_description": [
+            "Created a static website for a biophysics researcher to display public information and research publications authored by him and his biophysics team.",
+            "Designed a research page where all research is displayed in a clean UI, along with pagination to ensure efficient data retrieval."
+        ],
+        "tech_stack": [
+            "html5",
+            "css3",
+            "javascript",
+            "bootstrap",
+            "react",
+            "vitejs",
+            "googlecloud"
+        ],
+        "project_thumbnail": "project_thumbnails/biophysics_group_thumbnail.webp",
+        "project_link": "https://marco-s-lab.web.app/"
+    },
+    {
         "project_name": "AI Tutor",
         "project_description": [
             "Collaborated with a team to create an AI-powered Intelligent Tutoring System that personalizes learning through adaptive scaffolding.",
             "Implemented the system's UI using Bootstrap to quickly prepare a modern, responsive frontend.",
             "Dockerized frontend and backend repositories to ensure all teammates have the same dependency versions.",
-            "Set up AWS S3, Cloudfront, EC2, RDS and Secrets manager to host a demo for the MSCHE conference event, making our app accessible for testing and collecting user feedback (Website currently under maintenance).",
+            "Set up AWS S3, Cloudfront, EC2, RDS and Secrets manager to temporarily host a demo for the MSCHE conference event.",
             "Code not available on Github due to security concerns but general information about the research lab is here: https://github.com/sju-nlp-lab."
         ],
         "tech_stack": [
@@ -37,10 +55,11 @@
             "docker",
             "python",
             "mysql",
-            "amazonwebservices"
+            "amazonwebservices",
+            "jest"
         ],
         "project_thumbnail": "project_thumbnails/ai_tutor_thumbnail.webp",
-        "project_link": "https://ai-tutor-app.com"
+        "project_link": "https://github.com/sju-nlp-lab"
     },
     
     {
@@ -80,6 +99,21 @@
         ],
         "project_thumbnail": "project_thumbnails/billiards_website_thumbnail.webp",
         "project_link": "https://billiardssolylunawebsite.web.app/"
+    },
+    {
+    "project_name": "Vehicular Cloud Real Time System",
+    "project_description": [
+            "Worked with an AGILE development team to build a client-server architecture for real-time data processing leveraging hardware power from idle vehicles.",
+            "Added logging for user logins and database processes, scrutinizing all requests to the database for security.",
+            "Set up the backend by integrating MySQL database, ensuring proper storage of data for cars and jobs."
+        ],
+        "tech_stack": [
+            "java",
+            "mysql"
+        ],
+        "project_thumbnail": "project_thumbnails/vcrts_thumbnail.webp",
+        "project_link": "https://github.com/nixkhm/VCRTSGroup4"
     }
+    
     
 ]

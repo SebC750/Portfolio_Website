@@ -13,6 +13,7 @@ const Navbar = () => {
             setIsScrolled(true);
         }
     };
+    
     useEffect(() => {
         changeNavbarStyle();
         document.addEventListener('scroll', changeNavbarStyle);

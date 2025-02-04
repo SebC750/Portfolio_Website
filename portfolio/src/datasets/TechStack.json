@@ -1,5 +1,5 @@
 {
-    "Frontend": [
+    "Web technologies": [
         {
             "technology": "HTML5",
             "technology_icon": "devicon-html5-plain-wordmark"
@@ -9,19 +9,15 @@
             "technology_icon": "devicon-css3-plain-wordmark"
         },
         {
-            "technology": "JavaScript",
-            "technology_icon": "devicon-javascript-plain"
-        },
-        {
-            "technology": "TypeScript",
-            "technology_icon": "devicon-typescript-plain"
-        },
-        {
             "technology": "React.js",
             "technology_icon": "devicon-react-plain"
         }
     ],
-    "Backend": [
+    "Programming languages": [
+        {
+            "technology": "JavaScript/TypeScript",
+            "technology_icon": "devicon-typescript-plain"
+        },
         {
             "technology": "Java",
             "technology_icon": "devicon-java-plain"
@@ -33,9 +29,19 @@
         {
             "technology": "PHP",
             "technology_icon": "devicon-php-plain"
-        }
+        }      
     ],
-    "Frameworks": [
+    "Backend Development": [
+        {
+            "technology": "Flask",
+            "technology_icon": "devicon-flask-plain"
+        },
+        {
+            "technology": "Express",
+            "technology_icon": "devicon-express-original"
+        }    
+    ],
+    "Web Frameworks": [
         {
             "technology": "Bootstrap",
             "technology_icon": "devicon-bootstrap-plain"
@@ -83,8 +89,8 @@
             "technology_icon": "devicon-vercel-plain"
         },
         {
-            "technology": "GCP",
-            "technology_icon": "devicon-googlecloud-plain"
+            "technology": "Firebase",
+            "technology_icon": "devicon-firebase-plain"
         },
         {
             "technology": "AWS",

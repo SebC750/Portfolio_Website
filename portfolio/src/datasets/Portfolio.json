@@ -101,19 +101,22 @@
         "project_link": "https://billiardssolylunawebsite.web.app/"
     },
     {
-    "project_name": "Vehicular Cloud Real Time System",
+    "project_name": "Art Gallery Portfolio Website",
     "project_description": [
-            "Worked with an AGILE development team to build a client-server architecture for real-time data processing leveraging hardware power from idle vehicles.",
-            "Added logging for user logins and database processes, scrutinizing all requests to the database for security.",
-            "Set up the backend by integrating MySQL database, ensuring proper storage of data for cars and jobs."
+            "Created a minimalist UI with Bootstrap 5 to showcase my collection of artworks.",
+            "Currently developing a Node.js Express backend to support comment sections and art submissions."
         ],
         "tech_stack": [
-            "java",
-            "mysql"
+            "html5",
+            "css3",
+            "javascript",
+            "bootstrap",
+            "react",
+            "vitejs",
+            "nodejs",
+            "googlecloud"
         ],
-        "project_thumbnail": "project_thumbnails/vcrts_thumbnail.webp",
-        "project_link": "https://github.com/nixkhm/VCRTSGroup4"
-    }
-    
-    
+        "project_thumbnail": "project_thumbnails/art_gallery_thumbnail.webp",
+        "project_link": "art-gallery-app-3fddc.web.app/"
+    }  
 ]

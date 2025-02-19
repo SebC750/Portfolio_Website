@@ -1,0 +1,38 @@
+h1,h2,h3,h4,h5,h6{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+p, button, small, strong, big,a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.bg-darker-purple, .bg-dark{
+    background-color: #23202D !important;
+}
+.border-purple{
+    border-color: #7651E6 !important;
+}
+.btn-dark-purple, .bg-dark-purple{
+    background-color: #2F2B3B;
+}
+
+.btn-purple, .bg-purple{
+    background-color: #7651E6;
+}
+
+.btn-purple:active{
+    background-color: #6041BD;
+}
+.text-purple{
+    color: #7651E6;
+}
+.nav-button:hover{    
+     bottom: 10px;
+}

@@ -36,3 +36,9 @@ a{
 .nav-button:hover{    
      bottom: 10px;
 }
+.fs-xl{
+     font-size: 48px;
+}
+.fs-2xl{
+     font-size: 56px;
+}

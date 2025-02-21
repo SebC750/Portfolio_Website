@@ -1,0 +1,120 @@
+{
+    "portfolio": [
+        {
+            "project_name": "Knowledge Graph",
+            "project_description": "An intelligent recommendation system for retrieving accurate medical ontologies from a neo4j graph database.",
+            "project_image": "assets/knowledge_graph_thumbnail.webp",
+            "project_tech_stack": [
+                "devicon-javascript-plain colored",
+                "devicon-react-original colored",
+                "devicon-bootstrap-plain colored",
+                "devicon-php-plain colored",
+                "devicon-neo4j-plain"
+            ],
+            "project_link": ""
+        },
+        {
+            "project_name": "AI ITS",
+            "project_description": "An intelligent tutoring system powered by AI, ML and NLP to personalize the learning environment while adapting to learning styles.",
+            "project_image": "assets/ai_tutor_thumbnail.webp",
+            "project_tech_stack": [
+                "devicon-javascript-plain colored",
+                "devicon-react-original colored",
+                "devicon-bootstrap-plain colored",
+                "devicon-flask-original",
+                "devicon-mysql-original",
+                "devicon-amazonwebservices-plain-wordmark colored"
+            ],
+            "project_link": ""
+        },
+        {
+            "project_name": "Billiards Order Management System",
+            "project_description": "A desktop app developed to provide a simple management system to manage current orders, track pool time and settle debts with clientele.",
+            "project_image": "assets/billiards_order_tracker_thumbnail.webp",
+            "project_tech_stack": [
+                "devicon-javascript-plain colored",
+                "devicon-electron-original colored",
+                "devicon-react-original colored",
+                "devicon-bootstrap-plain colored"
+            ],
+            "project_link": ""
+        },
+        {
+            "project_name": "Billiards Public Website",
+            "project_description": "A static public information website for a pool hall and tavern located in NYC, showing menu options and media of the establishment's events.",
+            "project_image": "assets/billiards_website_thumbnail.webp",
+            "project_tech_stack": [
+                "devicon-typescript-plain colored",
+                "devicon-tailwindcss-original colored",
+                "devicon-react-original colored",
+                "devicon-firebase-plain colored"
+            ],
+            "project_link": ""
+        },
+        {
+            "project_name": "Biophysics group website",
+            "project_description": "A static public information website for a biophysics research team to showcase their work on optics and the effects of light on butterflies.",
+            "project_image": "assets/biophysics_group_thumbnail.webp",
+            "project_tech_stack": [
+                "devicon-javascript-plain colored",
+                "devicon-bootstrap-plain colored",
+                "devicon-react-original colored",
+                "devicon-firebase-plain colored"
+            ],
+            "project_link": ""
+        },
+        {
+            "project_name": "Art gallery portfolio",
+            "project_description": "A personal gallery of my digital illustrations including comics and animations. Express server for art, comments and users in development.",
+            "project_image": "assets/art_gallery_thumbnail.webp",
+            "project_tech_stack": [
+                "devicon-javascript-plain colored",
+                "devicon-bootstrap-plain colored",
+                "devicon-react-original colored",
+                "devicon-express-original colored",
+                "devicon-firebase-plain colored"
+            ],
+            "project_link": ""
+        },
+        {
+            "project_name": "VCRTS",
+            "project_description": "A team capstone project where we built a client server architecture for simulating task execution using hardware from vehicles.",
+            "project_image": "assets/vcrts_thumbnail.webp",
+            "project_tech_stack": [
+                "devicon-java-plain colored",
+                "devicon-mysql-original"
+            ],
+            "project_link": ""
+        },
+        {
+            "project_name": "Computer Vision",
+            "project_description": "A collection of coursework where I apply machine learning concepts for computer vision programs such as neural networks and image filtering.",
+            "project_image": "assets/computer_visions.png",
+            "project_tech_stack": [
+                "devicon-python-plain colored",
+                "devicon-jupyter-plain-wordmark colored"
+            ],
+            "project_link": ""
+        },
+        {
+            "project_name": "SEOptimizer",
+            "project_description": "A small personal CLI tool to expedite the process of converting website assets into SEO friendly file types offline.",
+            "project_image": "assets/seoptimizer.png",
+            "project_tech_stack": [
+                "devicon-python-plain colored",
+                "devicon-pytest-plain colored"
+            ],
+            "project_link": ""
+        },
+        {
+            "project_name": "Wine quality dataset",
+            "project_description": "A kaggle competition in which I had to determine the best regression model for predicting wine quality given data such as alcohol and pH.",
+            "project_image": "assets/wine_glass.webp",
+            "project_tech_stack": [
+                "devicon-python-plain colored",
+                "devicon-jupyter-plain-wordmark colored"
+            ],
+            "project_link": ""
+        }
+    ]
+}

@@ -61,8 +61,8 @@
             "alt": "java logo"
         },
         {
-            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg",
-            "alt": "php logo"
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg",
+            "alt": "jupyter logo"
         }
     ]
 }

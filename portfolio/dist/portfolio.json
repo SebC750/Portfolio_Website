@@ -9,9 +9,9 @@
                 "devicon-react-original colored",
                 "devicon-bootstrap-plain colored",
                 "devicon-php-plain colored",
-                "devicon-neo4j-plain"
+                "devicon-neo4j-plain colored"
             ],
-            "project_link": ""
+            "project_link": "https://github.com/bukharilab/KG4BioMedCntnAuthoring"
         },
         {
             "project_name": "AI ITS",
@@ -25,7 +25,7 @@
                 "devicon-mysql-original",
                 "devicon-amazonwebservices-plain-wordmark colored"
             ],
-            "project_link": ""
+            "project_link": "https://github.com/sju-nlp-lab"
         },
         {
             "project_name": "Billiards Order Management System",
@@ -37,7 +37,7 @@
                 "devicon-react-original colored",
                 "devicon-bootstrap-plain colored"
             ],
-            "project_link": ""
+            "project_link": "https://github.com/SebC750/Billiards_Sol_Y_Luna_Order_Tracking_System"
         },
         {
             "project_name": "Billiards Public Website",
@@ -49,7 +49,7 @@
                 "devicon-react-original colored",
                 "devicon-firebase-plain colored"
             ],
-            "project_link": ""
+            "project_link": "https://billiardssolylunawebsite.web.app/"
         },
         {
             "project_name": "Biophysics group website",
@@ -61,7 +61,7 @@
                 "devicon-react-original colored",
                 "devicon-firebase-plain colored"
             ],
-            "project_link": ""
+            "project_link": "https://marco-s-lab.web.app/"
         },
         {
             "project_name": "Art gallery portfolio",
@@ -74,7 +74,7 @@
                 "devicon-express-original colored",
                 "devicon-firebase-plain colored"
             ],
-            "project_link": ""
+            "project_link": "https://art-gallery-app-3fddc.web.app/"
         },
         {
             "project_name": "VCRTS",
@@ -84,7 +84,7 @@
                 "devicon-java-plain colored",
                 "devicon-mysql-original"
             ],
-            "project_link": ""
+            "project_link": "https://github.com/nixkhm/VCRTSGroup4"
         },
         {
             "project_name": "Computer Vision",
@@ -94,7 +94,7 @@
                 "devicon-python-plain colored",
                 "devicon-jupyter-plain-wordmark colored"
             ],
-            "project_link": ""
+            "project_link": "https://github.com/SebC750/Sebastian_Chalarca_Computer_Vision_Assignments"
         },
         {
             "project_name": "SEOptimizer",
@@ -104,7 +104,7 @@
                 "devicon-python-plain colored",
                 "devicon-pytest-plain colored"
             ],
-            "project_link": ""
+            "project_link": "https://github.com/SebC750/SEOptimizer"
         },
         {
             "project_name": "Wine quality dataset",
@@ -114,7 +114,7 @@
                 "devicon-python-plain colored",
                 "devicon-jupyter-plain-wordmark colored"
             ],
-            "project_link": ""
+            "project_link": "https://github.com/SebC750/Wine_Quality_Dataset"
         }
     ]
 }

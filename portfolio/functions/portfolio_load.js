@@ -3,10 +3,10 @@ document.addEventListener("DOMContentLoaded", async function(){
     const portfolioData = await response.json()
     const portfolioList = document.getElementById("portfolioList")
     portfolioData["portfolio"].map((val) => {
-        portfolioList.innerHTML += `<div class="col-lg-6">
+        portfolioList.innerHTML += `<div class="project-card col-lg-6">
                     <div
-                        class="card bg-darker-purple text-white rounded-0 border-top-0 border-start-0 border-end-0 border-bottom-2 border-purple">
-                        <div class="row g-0">
+                        class="card bg-darker-purple text-white rounded-0 border-0 shadow-md">
+                        <div class="row g-0 border-purple">
                             <div class="col-md-4">
                                 <img src="${val.project_image}"
                                     class="card-img-fluid object-fit-cover w-100 h-100" width="auto" height="auto" />

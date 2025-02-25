@@ -1,9 +1,22 @@
-#hero-link{
-    transition-duration: all 0.3s ease;
+.hero-link{
+    gap:0;
+    transition: all 0.2s ease;
 }
-#hero-link:hover{
+#about-hero-link:hover{
     gap: 10px;  
+}
+#portfolio-hero-link{
+    transition: all 0.2s ease;
+}
+#portfolio-hero-link:hover{
+    padding-left: 20px;
 }
 #footer-note{
     font-size: 10px;
+}
+.social-icon{
+    transition: all 0.2s ease;
+}
+.social-icon:hover{
+    color: #6041BD;
 }

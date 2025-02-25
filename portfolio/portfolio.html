@@ -12,45 +12,51 @@
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <title> Software Development Portfolio </title>
 </head>
+
 <body class="bg-dark-purple">
     <header>
-        <nav class="navbar m-5">           
-                <div class="w-auto">
-                    <a class="bg-purple p-2 fs-4 text-white link-underline link-underline-opacity-0 position-relative nav-button"
-                        href="index.html"> Home </a>
-                    <a class="bg-purple p-2 fs-4 text-white link-underline link-underline-opacity-0 position-relative nav-button"
-                        href="portfolio.html"> Portfolio </a>
-                    <a class="bg-purple p-2 fs-4 text-white link-underline link-underline-opacity-0 position-relative nav-button"
-                        href="#contacts"> Contacts </a>
+        <nav class="navbar navbar-expand-lg m-5">
+            <div class="container-fluid">
+                <button class="navbar-toggler w-100 bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavPractice"
+                    aria-controls="navbarNavPractice" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-list text-purple fs-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavPractice">
+                    <div class="navbar-nav me-auto bg-darker-purple">
+                        <a class="bg-purple text-center text-sm-start p-2 fs-4 text-white link-underline link-underline-opacity-0 position-relative nav-button"
+                            href="index.html"> Home </a>
+                        <a class="bg-purple p-2 fs-4 text-white text-center text-sm-start link-underline link-underline-opacity-0 position-relative nav-button"
+                            href="portfolio.html"> Portfolio </a>
+                        <a class="bg-purple p-2 fs-4 text-white text-center text-sm-start link-underline link-underline-opacity-0 position-relative nav-button"
+                            href="#contacts"> Contacts </a>
+                    </div>
+                    <div class="navbar-nav gap-0 d-flex flex-row gap-2 justify-content-center">
+                        <a class="link-underline link-underline-opacity-0" href="https://github.com/SebC750"> <i class="text-purple fs-1 bi bi-github" id="social-icon"></i> </a>
+                        <a class="link-underline link-underline-opacity-0" href="https://linkedin.com/in/sebastian-chalarca-603939201/"> <i class="text-purple fs-1 bi bi-linkedin" id="social-icon"></i> </a>
+                    </div>
                 </div>
-                <div class="nav gap-3">
-                    <a class="link-underline link-underline-opacity-0" href=""> <i
-                            class="text-purple fs-1 bi bi-github">
-                        </i> </a>
-                    <a class="link-underline link-underline-opacity-0" href=""> <i
-                            class="text-purple fs-1 bi bi-linkedin">
-                        </i> </a>
-                </div>
+            </div>
         </nav>
     </header>
     <section>
         <div class="container">
             <h1 class="text-white"> Portfolio </h1>
             <div class="row g-4" id="portfolioList">
-                
+
             </div>
         </div>
     </section>
     <footer class="nav flex-column justify-content-center align-items-center p-4" id="contacts">
-        <h5 class="text-white"> Interested? Contact me below!</h5>
+        <h5 class="text-white"> Contact me</h5>
         <div class="nav gap-2 gap-sm-5 text-white mb-3" id="footer-contacts">
-         <small class="d-flex align-items-center gap-2"> <i class="bi bi-envelope-fill fs-4"></i>
-                sebastian.chalarca.dev@gmail.com </small>
+            <a href="mailto:sebastian.chalarca.dev@gmail.com" class="d-flex align-items-center gap-2 text-white"> <i class="bi bi-envelope-fill fs-4"></i>
+                sebastian.chalarca.dev@gmail.com </a>
             <small class="d-flex align-items-center gap-2"> <i class="bi bi-telephone-fill fs-4"></i> 929-216-4699
             </small>
         </div>
         <small class="text-white text-center opacity-50" id="footer-note"> Sebastian Chalarca 2025 </small>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script type="module" src="functions/portfolio_load.js"> </script>
 </body>
 

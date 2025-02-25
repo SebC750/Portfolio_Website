@@ -22,17 +22,17 @@
                     <i class="bi bi-list text-purple fs-1"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <div class="navbar-nav me-auto">
-                        <a class="bg-purple p-2 fs-4 text-white link-underline link-underline-opacity-0 position-relative nav-button"
+                    <div class="navbar-nav me-auto bg-darker-purple">
+                        <a class="bg-purple text-center text-sm-start p-2 fs-4 text-white link-underline link-underline-opacity-0 position-relative nav-button"
                             href="index.html"> Home </a>
-                        <a class="bg-purple p-2 fs-4 text-white link-underline link-underline-opacity-0 position-relative nav-button"
+                        <a class="bg-purple p-2 fs-4 text-white text-center text-sm-start link-underline link-underline-opacity-0 position-relative nav-button"
                             href="portfolio.html"> Portfolio </a>
-                        <a class="bg-purple p-2 fs-4 text-white link-underline link-underline-opacity-0 position-relative nav-button"
+                        <a class="bg-purple p-2 fs-4 text-white text-center text-sm-start link-underline link-underline-opacity-0 position-relative nav-button"
                             href="#contacts"> Contacts </a>
                     </div>
-                    <div class="navbar-nav gap-3">
-                        <a class="link-underline link-underline-opacity-0" href=""> <i class="text-purple fs-1 bi bi-github"></i> </a>
-                        <a class="link-underline link-underline-opacity-0" href=""> <i class="text-purple fs-1 bi bi-linkedin"></i> </a>
+                    <div class="navbar-nav gap-0 d-flex flex-row gap-2 justify-content-center">
+                        <a class="link-underline link-underline-opacity-0" href="https://github.com/SebC750"> <i class="text-purple fs-1 bi bi-github" id="social-icon"></i> </a>
+                        <a class="link-underline link-underline-opacity-0" href="https://linkedin.com/in/sebastian-chalarca-603939201/"> <i class="text-purple fs-1 bi bi-linkedin" id="social-icon"></i> </a>
                     </div>
                 </div>
             </div>
@@ -58,14 +58,14 @@
     </section>
     <section class="bg-darker-purple h-auto" id="about">
         <div class="container p-5">
-            <div class="row g-0">
-                <div class="col-md-6">
-                    <div class="row g-2" id="techList">
+            <div class="row g-0 d-flex align-items-center">
+                <div class="col">
+                    <div class="row ms-sm-0 g-2" id="techList">
 
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <h2 class="text-white fs-1"> The all in one developer </h2>
+                    <h2 class="text-white fs-1"> The all-in-one developer </h2>
                     <p class="text-white">
                         As a full stack web developer.
                         I am capable of working in all parts of the application.
@@ -83,7 +83,7 @@
     </section>
     <section class="bg-dark-purple h-auto">
         <div class="container p-5">
-            <div class="row g-0">
+            <div class="row g-0 d-flex align-items-center">
                 <div class="col-md-6">
                     <h2 class="text-white fs-1"> Misson driven </h2>
                     <p class="text-white"> I don't code just for the sake of it. I code to solve everyday problems for
@@ -95,7 +95,7 @@
                     </p>
                 </div>
                 <div class="col-md-6">
-
+                     <img src="./assets/mission_driven_image.webp" class="img-fluid object-fit-cover" alt="mission driven section image" height="400px" width="500px"/>
                 </div>
             </div>
         </div>
@@ -103,9 +103,9 @@
     </section>
     <section class="bg-darker-purple h-auto">
         <div class="container p-5">
-            <div class="row g-0">
+            <div class="row g-0 d-flex align-items-center">
                 <div class="col-md-6">
-
+                    <img src="./assets/ai_scientist_image.webp" class="img-fluid object-fit-cover" alt="mission driven section image" height="300px" width="400px"/>
                 </div>
                 <div class="col-md-6">
                     <h2 class="text-white fs-1"> AI scientist </h2>
@@ -120,10 +120,10 @@
 
     </section>
     <footer class="nav flex-column justify-content-center align-items-center p-4" id="contacts">
-        <h5 class="text-white"> Interested? Contact me below!</h5>
+        <h5 class="text-white"> Contact me</h5>
         <div class="nav gap-2 gap-sm-5 text-white mb-3" id="footer-contacts">
-         <small class="d-flex align-items-center gap-2"> <i class="bi bi-envelope-fill fs-4"></i>
-                sebastian.chalarca.dev@gmail.com </small>
+         <a href="mailto:sebastian.chalarca.dev@gmail.com" class="d-flex align-items-center gap-2 text-white"> <i class="bi bi-envelope-fill fs-4"></i>
+                sebastian.chalarca.dev@gmail.com </a>
             <small class="d-flex align-items-center gap-2"> <i class="bi bi-telephone-fill fs-4"></i> 929-216-4699
             </small>
         </div>

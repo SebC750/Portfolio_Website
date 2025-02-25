@@ -22,7 +22,6 @@ a{
 .btn-dark-purple, .bg-dark-purple{
     background-color: #2F2B3B;
 }
-
 .btn-purple, .bg-purple{
     background-color: #7651E6;
 }
@@ -41,4 +40,7 @@ a{
 }
 .fs-2xl{
      font-size: 56px;
+}
+.btn-purple:hover{
+    background-color: #6041BD;
 }

@@ -1,9 +1,10 @@
-#hero-link{
-    transition-duration: all 0.3s ease;
-}
 #hero-link:hover{
     gap: 10px;  
 }
 #footer-note{
     font-size: 10px;
+}
+
+#social-icon:hover{
+    color: #6041BD;
 }

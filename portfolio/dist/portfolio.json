@@ -56,12 +56,25 @@
             "project_description": "A static public information website for a biophysics research team to showcase their work on optics and the effects of light on butterflies.",
             "project_image": "assets/biophysics_group_thumbnail.webp",
             "project_tech_stack": [
+                "devicon-html5-plain colored",
+                "devicon-css3-plain colored",
                 "devicon-javascript-plain colored",
                 "devicon-bootstrap-plain colored",
-                "devicon-react-original colored",
                 "devicon-firebase-plain colored"
             ],
             "project_link": "https://marco-s-lab.web.app/"
+        },
+        {
+            "project_name": "Confession Booth",
+            "project_description": "A fun hobby project where anonymous users can share their darkest secrets to the internet and confess their sins. Used Next.js and Firebase.",
+            "project_image": "assets/confession_booth_icon.png",
+            "project_tech_stack": [
+                "devicon-nextjs-plain",
+                "devicon-javascript-plain colored",
+                "devicon-tailwindcss-original colored",
+                "devicon-firebase-plain colored"
+            ],
+            "project_link": "https://confession-booth-nine.vercel.app/"
         },
         {
             "project_name": "Art gallery portfolio",
@@ -71,7 +84,6 @@
                 "devicon-javascript-plain colored",
                 "devicon-bootstrap-plain colored",
                 "devicon-react-original colored",
-                "devicon-express-original colored",
                 "devicon-firebase-plain colored"
             ],
             "project_link": "https://art-gallery-app-3fddc.web.app/"
@@ -87,24 +99,18 @@
             "project_link": "https://github.com/nixkhm/VCRTSGroup4"
         },
         {
-            "project_name": "Computer Vision",
-            "project_description": "A collection of coursework where I apply machine learning concepts for computer vision programs such as neural networks and image filtering.",
-            "project_image": "assets/computer_visions.png",
+            "project_name": "Bookstore IMS",
+            "project_description": "A SaaS platform for users to create lists of books in any kind of category. Complete with Devise auth, Docker deployment and RSpec testing.",
+            "project_image": "assets/bookstore_logo.png",
             "project_tech_stack": [
-                "devicon-python-plain colored",
-                "devicon-jupyter-plain-wordmark colored"
+                "devicon-ruby-plain colored",
+                "devicon-rails-plain colored",
+                "devicon-bootstrap-plain colored",
+                "devicon-sqlite-plain colored",
+                "devicon-docker-plain colored",
+                "devicon-rspec-plain colored"
             ],
-            "project_link": "https://github.com/SebC750/Sebastian_Chalarca_Computer_Vision_Assignments"
-        },
-        {
-            "project_name": "SEOptimizer",
-            "project_description": "A small personal CLI tool to expedite the process of converting website assets into SEO friendly file types offline.",
-            "project_image": "assets/seoptimizer.png",
-            "project_tech_stack": [
-                "devicon-python-plain colored",
-                "devicon-pytest-plain colored"
-            ],
-            "project_link": "https://github.com/SebC750/SEOptimizer"
+            "project_link": "https://bookstoreimsnew.fly.dev/users/sign_in"
         },
         {
             "project_name": "Wine quality dataset",

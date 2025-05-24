@@ -33,8 +33,8 @@
             "alt": "nodejs logo"
         },
         {
-            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jest/jest-plain.svg",
-            "alt": "jest logo"
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rspec/rspec-original.svg",
+            "alt": "rspec logo"
         },
         {
             "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
@@ -49,8 +49,8 @@
             "alt": "python logo"
         },
         {
-            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg",
-            "alt": "figma logo"
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ruby/ruby-original.svg",
+            "alt": "ruby logo"
         },
         {
             "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
@@ -61,8 +61,8 @@
             "alt": "java logo"
         },
         {
-            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg",
-            "alt": "jupyter logo"
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+            "alt": "nextjs logo"
         }
     ]
 }

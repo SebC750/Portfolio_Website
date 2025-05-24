@@ -56,9 +56,10 @@
             "project_description": "A static public information website for a biophysics research team to showcase their work on optics and the effects of light on butterflies.",
             "project_image": "assets/biophysics_group_thumbnail.webp",
             "project_tech_stack": [
+                "devicon-html5-plain colored",
+                "devicon-css3-plain colored",
                 "devicon-javascript-plain colored",
                 "devicon-bootstrap-plain colored",
-                "devicon-react-original colored",
                 "devicon-firebase-plain colored"
             ],
             "project_link": "https://marco-s-lab.web.app/"
@@ -83,7 +84,6 @@
                 "devicon-javascript-plain colored",
                 "devicon-bootstrap-plain colored",
                 "devicon-react-original colored",
-                "devicon-express-original colored",
                 "devicon-firebase-plain colored"
             ],
             "project_link": "https://art-gallery-app-3fddc.web.app/"
